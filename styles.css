@@ -13,17 +13,19 @@
     margin: 0;
     width: 100%;
     display: flex;
-    align-content: column;
+    flex-flow: column nowrap;
 }
 
 .nav, .banner {
     background-color: inherit;
+    color: white;
     display: flex;
-    flex-flow: row nowrap;
+    
 }
 
 .nav {
     flex: 1;
+    flex-flow: row nowrap;
 }  
 
 .head{
@@ -64,4 +66,23 @@ ul > li{
     list-style-type: none;
     font-size: 24px;
     font-weight: 250;
+}
+
+.banner {
+    margin-top: 150px;
+    align-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.description {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;    
+    
+}
+
+.display {
+    display: flex;
+    flex: 1;
 }
