@@ -136,6 +136,10 @@ button {
 .info-img {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 16px;
+    padding: 40px;
 }
 
 .card {
@@ -144,6 +148,8 @@ button {
     justify-content: center;
     flex-flow: column wrap;
     flex: 1;
+    text-align: center;
+    
 }
 
 .card > img {
@@ -152,5 +158,11 @@ button {
     border: 1px solid #3882F6;
     max-width: 200px;
     max-height: 200px;
+    flex: 1;
 }
+
+.card > p {
+    padding: 20px;
+}
+
 
