@@ -173,13 +173,54 @@ button {
     font-weight: 250;
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    align-items: baseline;
     padding: 150px;
 }
 
 .quote > span {
     font-style:normal;
     font-weight: 600;
+}   
 
+
+.spam {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #3882F6;
+    color: white;
+    margin: 120px;
+    gap: 60px;
 }
+
+.popup {
+    margin: 80px;
+    padding: 40px;
+    display: flex;
+    align-items: baseline;
+    flex-flow: column wrap; 
+    font-size: 24px;
+    
+}
+
+
+.button {
+    display: flex;
+    
+}
+
+.button > button {
+    border-radius: 6px;
+    padding: 5px;
+    border: 1px solid white;
+    
+    
+}    
+
+
+.popup span {
+    font-weight: 600;
+    font-size: 26px;
+}
+
